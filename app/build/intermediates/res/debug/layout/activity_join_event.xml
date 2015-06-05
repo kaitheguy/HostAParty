@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/headingTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+    <TextView
+        android:id="@+id/enterEventNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jEventNameEt"
+        android:layout_below="@+id/headingTv"
+        android:text="Enter name of event:" />
+    
+    <EditText
+        android:id="@+id/jEventNameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/headingTv"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/jEventPasswordEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jEventNameEt"
+        android:layout_below="@+id/jEventNameEt"
+        android:layout_marginTop="59dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/jEgNameEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jEventPasswordEt"
+        android:layout_centerVertical="true"
+        android:ems="10" />
+
+
+
+    <TextView
+        android:id="@+id/enterPasswordTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/jEventPasswordEt"
+        android:layout_alignLeft="@+id/jEventPasswordEt"
+        android:layout_marginBottom="36dp"
+        android:text="Enter password:" />
+
+    <TextView
+        android:id="@+id/enterEgNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jEgNameEt"
+        android:layout_alignLeft="@+id/jEgNameEt"
+        android:text="Enter your name:" />
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Sign In" />
+
+</RelativeLayout><!-- From: file:/home/kai/AndroidStudioProjects/HostAParty/app/src/main/res/layout/activity_join_event.xml -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HostAParty</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_host_event">HostEvent</string>
+    <string name="title_activity_join_event">JoinEvent</string>
+    <string name="title_activity_choose_game">ChooseGame</string>
+
+</resources>
